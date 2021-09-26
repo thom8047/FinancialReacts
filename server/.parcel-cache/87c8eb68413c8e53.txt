@@ -53,7 +53,7 @@
 120C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\ws\lib\permessage-deflate.js121436361000000000 0
 127C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\w3c-xmlserializer\lib\attributes.js121436361000000000 0
 116C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\@trysound\sax\lib\sax.js121436361000000000 0
-91C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\package.json132771033070713928 0
+91C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\package.json132771109928114346 0
 124C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\whatwg-mimetype\lib\mime-type.js121436361000000000 0
 117C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\es-to-primitive\.eslintrc121436361000000000 0
 131C:\Users\kedwa\Desktop\GitHub\LocalRepos\FinanceTracker\FinancialReacts\server\node_modules\es-abstract\2016\OrdinaryHasProperty.js121436361000000000 0

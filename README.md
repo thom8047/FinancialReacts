@@ -4,4 +4,5 @@ A financial bundler that reads pdfs with financial transactions and parses the d
 Some personal dev notes:
 
 git commit -am [MESSAGE]
+
 npm run *  <- name of script in package.json

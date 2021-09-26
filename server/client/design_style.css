@@ -1,0 +1,47 @@
+:root {
+    --dark-bg: rgb(26, 26, 26);
+    --dark-text: rgb(187, 187, 187);
+}
+
+body {
+    overflow-x: hidden;
+    border-left: var(--dark-text) 20px solid;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    white-space: pre;
+}
+
+#clock {
+    margin-top: 0;
+    float: right;
+}
+
+.visuals {
+    padding: 5% 0;
+}
+
+#title {
+    padding-left: 10%;
+}
+
+#test {
+    padding: 7px 1%;
+    transition: 0.5s;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#test:hover {
+    background-color: var(--dark-text);
+    color: var(--dark-bg);
+    cursor: pointer;
+}

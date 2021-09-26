@@ -12,6 +12,9 @@ class Design extends React.Component {
             user: props.user,
         };
     }
+    changeCurrentVisuals(id) {
+        console.log(id);
+    }
     // RENDER METHOD
     render() {
         // can only return a single div!
@@ -21,16 +24,18 @@ class Design extends React.Component {
                 <div className="welcome"> <h1 id="title">{this.state.title}, Welcome {this.state.user}  </h1> </div>
                 {/* Navbar for toggling through charts/visuals */}
                 <div className="visuals">
-                    <span id="test">ACCOUNT SUMMARY  |  </span>
-                    <span id="test">CHARGES  |  </span>
-                    <span id="test">SAVINGS  |  </span>
+                    <span>
+                        <button onClick={(event) => { this.changeCurrentVisuals("sum"); }} className="sum" id="header">ACCOUNT SUMMARY</button>
+                        <button onClick={(event) => { this.changeCurrentVisuals("charge"); }} className="charge" id="header">CHARGES</button>
+                        <button onClick={(event) => { this.changeCurrentVisuals("save"); }} className="save" id="header">SAVINGS</button>
+                    </span>
                 </div>
 
                 {/* Inputs for entering data to be included in visuals */}
                 <div className="user-inputs">
-                    <span id="test">INCOME  |  </span>
-                    <span id="test">EXPENSES  |  </span>
-                    <span id="test">GOALS  |  </span>
+                    <span id="header">INCOME</span>
+                    <span id="header">EXPENSES</span>
+                    <span id="header">GOALS</span>
                 </div>
             </div>
         );

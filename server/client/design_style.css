@@ -30,7 +30,9 @@ body {
     padding-left: 10%;
 }
 
-#test {
+#header {
+    all: unset;
+    border-left: white 1px solid;
     padding: 7px 1%;
     transition: 0.5s;
     display: block;
@@ -40,7 +42,7 @@ body {
     text-align: center;
 }
 
-#test:hover {
+#header:hover {
     background-color: var(--dark-text);
     color: var(--dark-bg);
     cursor: pointer;
